@@ -119,6 +119,13 @@ footnoteReturnLinkContents = "^"
   width = 50
   height = 50
   alt = "Logo"
+
+# enable utterances comments
+[params.utteranc]
+  repo = "owner/repo"
+  issueTerm = "title"
+  labe = "Comment"
+  theme = "github-light"
 ```
 
 Before you user my theme, don't remember to change favicon (static/favicon.ico) and icon (static/images/icon.png)!

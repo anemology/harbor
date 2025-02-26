@@ -1,0 +1,13 @@
+{{ if isset .Site.Params.Utteranc "repo" }}
+<br />
+<br />
+<hr />
+<script src="https://utteranc.es/client.js"
+    repo="{{ .Site.Params.Utteranc.Repo }}"
+    issue-term="{{ .Site.Params.Utteranc.IssueTerm }}"
+    label="{{ .Site.Params.Utteranc.Label }}"
+    theme="{{ .Site.Params.Utteranc.Theme }}"
+    crossorigin="anonymous"
+    async>
+</script>
+{{ end }}
